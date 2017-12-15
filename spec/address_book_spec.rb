@@ -125,5 +125,5 @@ RSpec.describe AddressBook do
        entry = book.binary_search('Billy')
        expect(entry).to be_nil
     end
-  end  
+  end
 end
