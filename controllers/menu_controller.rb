@@ -84,12 +84,13 @@ class MenuController
       when 'd'
       when 'e'
       when 'm'
-      system 'clear'
-      main_menu
+        system 'clear'
+        main_menu
       else
         system 'clear'
         puts "#{selection} is not a valid input"
         entry_submenu(entry)
     end
   end
+
 end
